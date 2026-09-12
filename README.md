@@ -96,13 +96,7 @@ php spark db:seed UserSeeder
 | مدير | `admin@example.com` | `PortSys@2026` |
 | مستخدم | `user@example.com` | `User@2026` |
 
-غيّر هذه القيم في `.env` قبل تشغيل Seeder على أي بيئة مشتركة أو إنتاجية:
 
-```ini
-PORTSYS_ADMIN_EMAIL = 'admin@example.com'
-PORTSYS_ADMIN_PASSWORD = 'ضع-كلمة-مرور-قوية'
-PORTSYS_USER_EMAIL = 'user@example.com'
-PORTSYS_USER_PASSWORD = 'ضع-كلمة-مرور-قوية'
 ```
 
 ### 5. تشغيل المشروع
@@ -161,15 +155,4 @@ spark               أداة أوامر CodeIgniter
 - `/places` إدارة المواقع للمدير
 - `/trips` إدارة الرحلات للمستخدمين والمديرين
 
-## ملاحظات أمنية
 
-- لا ترفع ملف `.env` إلى GitHub؛ يحتوي على إعدادات قاعدة البيانات والأسرار.
-- غيّر كلمات المرور التجريبية قبل النشر.
-- استخدم `CI_ENVIRONMENT = production` وHTTPS في بيئة الإنتاج.
-- تأكد من أن مجلد `writable` قابل للكتابة، لكنه غير مكشوف مباشرة للزوار.
-- لا تعتمد على بيانات الكتالوج لأغراض الملاحة أو التشغيل البحري الحقيقي.
-
-## الترخيص
-
-هذا المشروع مرخّص وفقًا للترخيص الموجود في ملف [LICENSE](LICENSE).
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
