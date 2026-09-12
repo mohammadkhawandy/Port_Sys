@@ -43,12 +43,11 @@
 ### 1. تنزيل المشروع
 
 ```bash
-git clone https://github.com/USERNAME/portsys.git
+git clone https://github.com/mohammadkhawandy/Port_Sys.git
 cd portsys
 composer install
 ```
 
-استبدل `USERNAME/portsys` برابط مستودع GitHub الحقيقي.
 
 ### 2. إعداد ملف البيئة
 
